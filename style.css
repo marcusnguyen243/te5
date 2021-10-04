@@ -1,0 +1,86 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
+
+.drawing_container_1 {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  width: 1080px;
+  height: 638px;
+}
+
+.arrow{
+  position: absolute;
+  margin: auto;
+  left:220px;
+  top: 280px;
+}
+
+h1{
+  font-family: 'VT323', monospace;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  
+}
+h2{
+  font-family: 'VT323', monospace;
+  text-align: center;
+  letter-spacing: 2px;
+  width:50%;
+  color: white;
+  
+}
+
+body{
+  background:black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    font-family: 'VT323', monospace;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+
+}
+
+.box {
+  position:fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
+    left: 37%;
+  top: 70%;
+   margin-right: -60%;
+
+}
+.box1{
+    position:fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
+    left: 37%;
+  top: 45%;
+   margin-right: -60%;
+}
